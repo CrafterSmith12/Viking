@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class Engine 
 {
-	static int players = 0;
-	static boolean done = false;
+	public static int players = 0;
+	public static boolean done = false;
+        public static boolean enteredAmountOfPlayers = false;
+	public static boolean sure = false;
+        public static String areYouSure = "x";
 
 	//	public static void main(String[] args) 
 	//	{
 	void act()
 	{
-		String areYouSure = "x";
-		boolean enteredAmountOfPlayers = false;
-		boolean sure = false;
-
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Welcome, my lord. Choose how many servants you desire.");
