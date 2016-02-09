@@ -5,7 +5,6 @@ import static viking.Engine.*;
 
 public class Player 
 {
-//	public static void main(String[] args) 
 	void act()
 	{
 		int coins = 10;
