@@ -1,3 +1,4 @@
 --THIS IS MY CODE--
+- Code needs to be cleaned / organized.
 - Still in development
 - Don't use any of it without my permission.
